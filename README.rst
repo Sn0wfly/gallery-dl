@@ -10,6 +10,43 @@ It is a cross-platform tool
 with many `configuration options <https://gdl-org.github.io/docs/configuration.html>`__
 and powerful `filenaming capabilities <https://gdl-org.github.io/docs/formatting.html>`__.
 
+🎨 **GUI Addition - Fork Enhancement**
+======================================
+
+**This fork includes a new Graphical User Interface (GUI) for gallery-dl!**
+
+We've added a complete GUI application that makes gallery-dl much easier to use for users who prefer graphical interfaces over command-line tools.
+
+**New Features in this Fork:**
+
+- 🖥️ **Complete GUI Application** (``gallery_dl_gui.py``)
+- 📁 **Visual directory selection** with browse buttons
+- 🎛️ **Tabbed interface** for organized options
+- ⏯️ **Start/Stop download controls** with real-time progress
+- 📊 **Live log display** with auto-scrolling
+- 🔧 **All major gallery-dl options** available through the interface
+- 🌐 **Multi-platform support** (Windows, Linux, macOS)
+- 🔍 **Automatic gallery-dl detection** (PATH, module, local script)
+
+**Quick Start with GUI:**
+
+.. code:: bash
+
+    # Run the GUI
+    python gallery_dl_gui.py
+
+**GUI Features:**
+
+- **Input/Output Section:** URL entry and output directory selection
+- **Common Options Tab:** Overwrite files, verbose mode, filename format, range, filters
+- **Metadata & Files Tab:** JSON metadata, info files, tags, ZIP compression
+- **Advanced Tab:** Authentication, rate limiting, download archive, custom options
+- **Real-time Control:** Start downloads and stop them safely at any time
+- **Live Feedback:** See gallery-dl output in real-time with auto-scrolling log
+
+For detailed GUI documentation, see `README_GUI.md <README_GUI.md>`__.
+
+**Original gallery-dl Documentation:**
 
 |pypi| |build|
 
